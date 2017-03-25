@@ -3,6 +3,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	if (sliderElem.length === 1) {
 		var slider = TabSlider();
 		slider.init(sliderElem[0]);
-		console.log("slider working!");
 	}
 });

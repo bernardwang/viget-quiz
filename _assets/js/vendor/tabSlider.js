@@ -80,7 +80,7 @@ var TabSlider = function () {
 
 		// Add event listeners to nav bar
 		for(var i = 0; i < maxIndex; i++) {
-			pages[i].style.width = 100/maxIndex + '%';
+			//pages[i].style.width = 100/maxIndex + '%';
 			(function(index){
 				tabs[index].addEventListener('click', function(){
 					update(index);

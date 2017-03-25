@@ -26,7 +26,7 @@ $nav-select-color: black;
 				<li class="nav-title"><a href="#">Tab 4</a></li>
 			</ul>
 			<div class="select-wrapper">
- 					<div class="select-bar"></div>
+					<div class="select-bar"></div>
 			</div>
 		</nav>
 		<section class="tab-content">
@@ -56,8 +56,8 @@ $nav-select-color: black;
 
 // Slider inner content
 .nav-wrapper, .select-wrapper, .content-wrapper{
-	margin-left: 10vw;
-	margin-right: 10vw;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .tab-nav{
@@ -65,7 +65,21 @@ $nav-select-color: black;
 	height: 100%;
 	position: relative;
 	box-sizing: border-box;
-	border-bottom: 1px solid $nav-color;
+
+	&:before{
+		display: block;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		content : "";
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 1px;
+		width: 90%;
+		border-bottom: 1px solid $nav-color;
+	}
 }
 
 .nav-wrapper{
