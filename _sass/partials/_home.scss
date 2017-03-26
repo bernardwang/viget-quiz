@@ -32,4 +32,15 @@
 	.person-title {
 
 	}
+
+	@media screen and (max-width: $breakpoint-medium) {
+		.person-summary {
+			text-align: center;
+		}
+		.person-headshot {
+			margin: 0;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
 }
