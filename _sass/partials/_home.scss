@@ -1,6 +1,35 @@
 #home {
 	.container {
-		padding-top: 5rem;
-		padding-bottom: 5rem;
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
+
+	.person-summary {
+		position: relative;
+	}
+
+	.person-headshot {
+		width: 17rem;
+		height: 17rem;
+		border: 4px solid white;
+		border-radius: 999rem;
+		overflow: hidden;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: -20rem;
+	}
+
+	.person-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.person-name {
+
+	}
+
+	.person-title {
+
 	}
 }
